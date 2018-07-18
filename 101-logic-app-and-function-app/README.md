@@ -7,6 +7,10 @@
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
+<a href="http://localhost:12604/api/product/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fms-leiyuan%2Fmarketplace-publish%2Fmaster%2F101-logic-app-and-function-app%2Fmetadata.json/?api-version=2017-04-15" target="_blank">
+    publish
+</a>
+
 This template creates a Serverless app in Azure with Logic Apps and Functions.  The Logic App triggers on an HTTP POST, calls the Azure Function, and returns the response.
 
 If you wish to open this in the Visual Studio Logic App designer, be sure to deploy once to any resource group, and set the `defaultValue` for the `functionAppName` to the deployed function app.  This will allow editing within the designer in Visual Studio.  The template can still be deployed to any resource group with any `functionAppName` later.
