@@ -7,7 +7,7 @@
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
-<a href="http://localhost:12604/api/product/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fms-leiyuan%2Fmarketplace-publish%2Fmaster%2F101-logic-app-and-function-app%2Fmetadata.json/?api-version=2017-04-15" target="_blank">
+<a href="http://localhost:12604/api/product/publish/?api-version=2017-04-15&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fms-leiyuan%2Fmarketplace-publish%2Fmaster%2F101-logic-app-and-function-app%2Fmetadata.json" target="_blank">
     publish
 </a>
 
