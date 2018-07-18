@@ -8,7 +8,7 @@
 </a>
 
 <a href="http://localhost:12604/api/product/publish/?api-version=2017-04-15&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fms-leiyuan%2Fmarketplace-publish%2Fmaster%2F101-logic-app-and-function-app%2Fmetadata.json" target="_blank">
-    publish
+    <img src="https://cdn0.iconfinder.com/data/icons/hamburg/32/publish.png"/>
 </a>
 
 This template creates a Serverless app in Azure with Logic Apps and Functions.  The Logic App triggers on an HTTP POST, calls the Azure Function, and returns the response.
