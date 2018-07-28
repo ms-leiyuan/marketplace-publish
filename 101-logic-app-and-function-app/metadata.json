@@ -4,6 +4,11 @@
   "description": "This template creates a Serverless app in Azure with Logic Apps and Functions.  The Logic App triggers on an HTTP POST, calls the Azure Function, and returns the response.",
   "summary": "Call an Azure Function from a Logic App",
   "githubUsername": "ms-leiyuan",
-  "dateUpdated": "2018-07-26"
+  "dateUpdated": "2018-07-26",
+  "deploy":{
+        "AzureTemplate":"https://raw.githubusercontent.com/ms-leiyuan/marketplace-publish/master/101-logic-app-and-function-app/azuredeploy.json",
+        "ParameterTemplate":"https://raw.githubusercontent.com/ms-leiyuan/marketplace-publish/master/101-logic-app-and-function-app/azuredeploy.parameters.json",
+        "category":"arm"
+  }
 }
 

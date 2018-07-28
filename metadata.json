@@ -1,12 +1,11 @@
 {
-  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
-  "itemDisplayName": "Azure Logic App with Function",
-  "description": "This template creates a Serverless app in Azure with Logic Apps and Functions.  The Logic App triggers on an HTTP POST, calls the Azure Function, and returns the response.",
-  "summary": "Call an Azure Function from a Logic App",
-  "githubUsername": "ms-leiyuan",
+  "itemDisplayName": "C# Azure Function for generating an ICS File",
+  "description": "This is a sample HTTP trigger Azure Function that returns a ICS file that to the client. The project takes a dependency on iCal.NET, but demonstrates how a simple HTTP Trigger can be implemented",
+  "summary": "This is a sample HTTP trigger Azure Function that returns a ICS file that to the client. The project takes a dependency on iCal.NET, but demonstrates how a simple HTTP Trigger can be implemented",
+  "githubUsername": "Another Contributer",
   "dateUpdated": "2018-07-26",
   "deploy":{
-        "AzureTemplate":"https://raw.githubusercontent.com/ms-leiyuan/marketplace-publish/master/101-logic-app-and-function-app/azuredeploy.json",
-        "ParameterTemplate":"https://raw.githubusercontent.com/ms-leiyuan/marketplace-publish/master/101-logic-app-and-function-app/azuredeploy.parameters.json"
+      "root":"https://raw.githubusercontent.com/ms-leiyuan/marketplace-publish/master/src",
+      "category":"azurefunction"
   }
 }
